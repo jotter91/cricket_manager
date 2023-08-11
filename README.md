@@ -32,6 +32,10 @@ One very important architectural constraint is the the match engine should be in
 
 Anyone is welcome to contribute to this project in any capacity. Please get in contact if you are interested in any aspect of this project. If you are looking to contribute code we ask that any production is accompanied by appropriate documentation and unit tests.
 
+#Related work 
+
+https://github.com/jotter91/cricket-forecast
+
 #Contact 
 
 Feel free to join us on Discord : https://discord.gg/DHX8eS7g
