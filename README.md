@@ -4,21 +4,21 @@ Welcome to the Cricket Manager repo! The aim of this project is to develop an op
 
 Whilst there are similar games out there our aim is to improve them: 
 
-· Include women’s competitions
+* Include women’s competitions
 
-· Allow detailed bowling plans
+* Allow detailed bowling plans
 
-· Detailed player attributes 
+* Detailed player attributes 
 
-· A detailed training program for players
+* A detailed training program for players
 
-· A draft simulator for franchises 
+* A draft simulator for franchises 
 
-· Include The Hundred 
+* Include The Hundred 
 
-· Improved visual experience 
+* Improved visual experience 
 
-· A thriving multiplayer community
+* A thriving multiplayer community
 
 We are currently in the very early stages of this project and are currently working on a prototype for the game. 
 
@@ -28,14 +28,14 @@ Currently the repo is split into three distinct aspects: frontend, match engine 
 
 One very important architectural constraint is the the match engine should be independent of the frontend and data model. This is to ensure that the algorithms and core logic in the match engine are always free to be deployed to any frontend or data model.
 
-#Contributing
+# Contributing
 
 Anyone is welcome to contribute to this project in any capacity. Please get in contact if you are interested in any aspect of this project. If you are looking to contribute code we ask that any production is accompanied by appropriate documentation and unit tests.
 
-#Related work 
+# Related work 
 
-https://github.com/jotter91/cricket-forecast
+[T20 Score predictor](https://github.com/jotter91/cricket-forecast)
 
-#Contact 
+# Contact 
 
 Feel free to join us on Discord : https://discord.gg/DHX8eS7g
