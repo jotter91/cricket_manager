@@ -12,12 +12,16 @@ with open(extracted_json_path, 'r') as json_file:
 players = data['info']['players']
 player_info = {}
 
-for player, player_id in players.items():
-    player_info[player] = {'runs_scored': 0, 'runs_given': 0, 'deliveries_faced': 0, 'deliveries_bowled': 0, 'team': None}
 
 for team, player_list in players.items():
     for player in player_list:
-        player_info[player] = {'runs_scored': 0, 'runs_given': 0, 'deliveries_faced': 0, 'deliveries_bowled': 0, 'team': team}
+        player_info[player] = {
+            'runs_scored': 0,
+            'runs_given': 0, 
+            'deliveries_faced': 0, 
+            'deliveries_bowled': 0, 
+            'wickets_taken':0, 
+            'team': team}
 
 
 innings = data['innings']
@@ -38,16 +42,27 @@ for inning in innings:
             player_info[batter]['runs_scored'] += runs_scored
             player_info[bowler]['runs_given'] += runs_given
 
-            if batter != bowler:
-                player_info[batter]['deliveries_faced'] += 1
+            if "wickets" in delivery:
+                player_info[bowler]['wickets_taken'] += 1
+
+
+            
+            player_info[batter]['deliveries_faced'] += 1
             player_info[bowler]['deliveries_bowled'] += 1
 
-# Print player information
+
+iteration = 0
 for player, info in player_info.items():
+
+    iteration += 1
+    if iteration < 1: #First key value pairs is just team names
+        continue
+
     print(f"Player: {player}")
     print(f"Team: {info['team']}")
     print(f"Runs Scored: {info['runs_scored']}")
     print(f"Deliveries Faced: {info['deliveries_faced']}")
     print(f"Runs Given: {info['runs_given']}")
     print(f"Deliveries Bowled: {info['deliveries_bowled']}")
+    print(f"Wickets Taken: {info['wickets_taken']}")
     print("-" * 20)
