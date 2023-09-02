@@ -3,7 +3,62 @@ guid: 90f73cce46a2c084f84110e5f39bfab9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-14 - default
+    second: {fileID: 2100000, guid: 32b8efe6162d58644ae78c48189f6d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-15 - default
+    second: {fileID: 2100000, guid: 23ee8b1e2b2b5fe44818cb24c3143331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-19 - default
+    second: {fileID: 2100000, guid: f731707ec54ec0340af284f181155b4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-20 - default
+    second: {fileID: 2100000, guid: 79ce9161e937ad64cb128109155a24d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-21 - default
+    second: {fileID: 2100000, guid: 902e99e6244da0946b5d0986b2811951, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-bat
+    second: {fileID: 2100000, guid: 8afdfebf2676a3e4d8ab552623c9a211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-casual 07
+    second: {fileID: 2100000, guid: 02f66ef55a66f0f43b41a8bf9d7dffb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-material #49e
+    second: {fileID: 2100000, guid: 9e937ea2b08ee2d439ca84a6d882bb02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-material #49e23
+    second: {fileID: 2100000, guid: 6ceee6939a7f894449705c236e3e2bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: batsman-rh-ss-material #52f
+    second: {fileID: 2100000, guid: 6521993ba5857a446a112d70accfedf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battingarrow-01 - default
+    second: {fileID: 2100000, guid: fe2460634428ab64995dbdd55541ea81, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
