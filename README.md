@@ -22,6 +22,8 @@ Whilst there are similar games out there our aim is to improve them:
 
 We are currently in the very early stages of this project and are currently working on a prototype for the game. 
 
+# Wiki 
+Check out the [Wiki](https://github.com/jotter91/cricket_manager/wiki) for more information on how the game works.
 # Structure of repo
 
 Currently the repo is split into three distinct aspects: frontend, match engine and data model. In this early stage of development each of these aspects are being treated as independent entities. As the project gathers more momentum these will start to tie together, but for now they are fairly separate whilst ideas are being put together. 
