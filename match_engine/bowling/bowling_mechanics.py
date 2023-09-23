@@ -23,12 +23,12 @@ def get_bowling_pitch(target_line,target_length,accuracy):
     m_length = (reference_length - reference_length*25.0)/100.0
     c_length = reference_length - m_length*100
     sigma_length = ( m_length*accuracy +c_length )/3.0
-    print(sigma_line,sigma_length)
+    #print(sigma_line,sigma_length)
     del_line =np.random.normal(0, sigma_line) 
     
     del_length =np.random.normal(0, sigma_length) 
-
-    return target_line +del_line,del_length +del_length 
+    #print(del_line,del_length)
+    return target_line +del_line,target_length +del_length
 
 if __name__ =="__main__":
-    print(get_bowling_pitch(0.1,1.5,50))
+    print(get_bowling_pitch(0.1,1.5,100))
